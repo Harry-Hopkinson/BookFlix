@@ -1,0 +1,90 @@
+p {
+  margin: 0;
+}
+.navbar {
+  width: 100vw;
+  height: 90px;
+  padding: 0 6rem 0 4rem;
+  box-shadow: 0 8px 14px 2px rgba(109,114,120,0.23);
+}
+.navbar-container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-container {
+  padding: 0.5rem; 
+}
+.wordmark {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Lato;
+  color: #ED696A;
+  margin-right: 0.5rem;
+}
+.nav-links {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 17px;
+  letter-spacing: -0.24px;
+  line-height: 27px;
+  margin: auto 0;
+}
+.nav-links p {
+  margin: 0;
+}
+.nav-links a {
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  text-decoration: none;
+  color: #ED696A;
+}
+.link {
+  color: black;
+}
+.link span {
+  margin-right: 0.6rem;
+}
+.link:hover {
+  text-decoration: none;
+}
+.active {
+  color: #ED696A;
+  font-weight: bold;
+  pointer-events: none;
+}
+.active:hover {
+  color: #ED696A;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    width: 100vw;
+    height: auto;
+    padding: 0.5rem 4rem;
+  }
+}
+
+@media (max-width: 578px) {
+  .navbar {
+    padding: 0.5rem 4rem 0.5rem 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .navbar {
+    padding: 0.5rem 2rem 0.5rem 1rem;
+  }
+  .logo-container span {
+    display: none;
+  }
+}

@@ -1,0 +1,58 @@
+h1 {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.search-page {
+  height: 100%;
+  justify-content: center;
+  padding: 1rem 3rem;
+}
+.search-header-container {
+  padding: 2rem;
+  margin: auto;
+  text-align: start;
+}
+.searchterm {
+  color:#1a0355;
+  font-family: Lato;
+}
+.search-container {
+  max-width: 900px;
+  margin: auto;  
+}
+.no-search {
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+}
+
+@media (max-width: 800px) {
+  .search-page {
+    padding: 1rem 2rem;
+  }
+  .no-search h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 578px) {
+  .search-page {
+    padding: 2rem;
+  }
+  .search-header-container {
+    padding: 1rem;
+  }
+  .search-container h1 {
+    font-size: 30px;
+  }
+  .no-search {
+    margin: 1rem 0 0 0;
+  }
+}
+
+
+
+

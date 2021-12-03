@@ -1,0 +1,43 @@
+.saved-book-container {
+  width: 180px;
+  height: auto;
+  padding: 1rem 1rem;
+  border-radius: 3%;
+  background-color: #FFFFFF;
+}
+.remove-button button {
+  border: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #DF3713;
+  background-color: #FFFFFF;
+  transform: translateX( 104px );
+}
+.saved-book-image img {
+  width: 112px;
+  height: 160px;
+  border-radius: 5%;
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.saved-book-info h2 {
+  color: #333333;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  margin: 0.7rem 0 0.3rem 0;
+  padding: 0;
+}
+.saved-book-info h3 {
+  color: #333333;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+}
+.saved-book-link:hover {
+  text-decoration: none;
+}
+

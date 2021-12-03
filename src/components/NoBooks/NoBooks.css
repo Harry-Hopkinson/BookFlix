@@ -1,0 +1,37 @@
+.no-saved-books {
+  margin: 4rem auto auto auto;
+  width: fit-content;
+  text-align: center;
+  font-family: "Open Sans";
+}
+.no-saved-books h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.no-saved-books-link button {
+  height: 50px;
+  width: 200px;
+  margin-top: 2rem;
+  border-radius: 30.5px;
+  background-color: #FFFFFF;
+  border: solid #ED696A 2px;
+  color: #ED696A;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+@keyframes buttonhover {
+  from {
+    background-color: #FFFFFF;
+    color: #ED696A;
+  } to {
+    background-color: #ED696A;
+    color: #FFFFFF;
+  }
+}
+.no-saved-books-link button:hover {
+  animation-name: buttonhover;
+  animation-duration: 1.1s;
+  animation-iteration-count: 1;
+}

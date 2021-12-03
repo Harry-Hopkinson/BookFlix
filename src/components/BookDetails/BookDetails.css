@@ -1,0 +1,129 @@
+.book-details-page {
+  padding: 3rem 8rem 3rem 8rem;
+  max-width: 1200px;
+  margin: auto;
+}
+.backBtn  {
+  margin-bottom: 2rem;
+  border: none;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-family: Lato;
+  font-size: 18px;
+}
+.backBtn:hover {
+  color: #ED696A;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.book-details-container {
+  display: flex;
+  flex-direction: row;
+}
+.book-details-image img {
+  width: 140px;
+  height: 200px;
+  border-radius: 22.33px;
+  box-shadow: 20px 26px 16px 0 rgba(0,0,0,0.21);
+}
+.book-details {
+  margin-left: 4rem;
+}
+.book-details h2 {
+  color: #333333;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+.book-details h3 {
+  color: #333333;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+.book-details h4 {
+  color: #A4A4AE;
+  font-family: Lato;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+.book-details p {
+  color: #666666;
+  font-family: Lato;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-top: 1rem;
+}
+.book-links {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.book-links a {
+  color: #333333;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Lato;
+  margin-left: 1rem;
+}
+.nobook-container {
+  text-align: center;
+  padding: 4rem 0;
+}
+.nobook-container h1 {
+  color: #333333;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-bottom: 3rem;
+}
+.nobook-container button {
+  max-height: 30px;
+  width: fit-content;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  border-radius: 30.5px;
+  background-color: #FFFFFF;
+  border: solid #ED696A 1px;
+  color: #ED696A;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+@media (max-width: 1000px) {
+  .book-details-page {
+    padding: 3rem 6rem 3rem 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .book-details-container {
+    flex-direction: column;
+  }
+  .book-details-image {
+    padding:  0 0 2rem 0;
+  }
+  .book-details {
+    margin: 0;
+  }
+}
+
+@media (max-width: 578px) {
+  .book-details-page {
+    padding: 2rem;
+  }
+  .book-details-image img {
+    width: 112px;
+    height: 160px;
+  }
+
+}

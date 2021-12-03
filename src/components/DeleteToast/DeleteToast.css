@@ -1,0 +1,9 @@
+.remove-button button {
+  border: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #DF3713;
+  background-color: #FFFFFF;
+  transform: translateX( 104px );
+}
