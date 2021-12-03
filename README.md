@@ -2,12 +2,11 @@
 <img align="left" width=70px height=70px src=".//icons/BookFlix.png" alt="Bookflix logo">
 
  <h1>Bookflix - A place to manage, explore and review books all from your browser.</h1>
-</img>
 
 <div allign="center">
   <br>
-  <img src="icons/Showcase.png" alt="marcdown" width="100%">
-  <img src="icons/Showcase2.png" alt="marcdown" width="100%">
+  <img src="icons/Showcase.png" width="100%">
+  <img src="icons/Showcase2.png" width="100%">
   <br>
 </div>
 
