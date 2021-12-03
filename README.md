@@ -3,12 +3,8 @@
 
  <h1>Bookflix - A place to manage, explore and review books all from your browser.</h1>
 
-<div allign="center">
-  <br>
-  <img src="icons/Showcase.png" width="100%">
-  <img src="icons/Showcase2.png" width="100%">
-  <br>
-</div>
+<img src="icons/Showcase.png">
+<img src="icons/Showcase2.png">
 
 <p allign="center">
 
