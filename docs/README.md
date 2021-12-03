@@ -1,5 +1,5 @@
 # Bookflix
-<img align="left" width=70px height=70px src="/images//BookFlix.png" alt="Bookflix logo">
+<img align="left" width=70px height=70px src="/images//BookFlixIcon.png" alt="Bookflix logo">
 
  <h1>Bookflix - A place to manage, explore and review books all from your browser.</h1>
  
