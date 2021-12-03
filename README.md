@@ -32,11 +32,11 @@ Please note that we use the Google Books API to obtain some information about bo
 
 ## 💻 Usage
 
-To get started, head over to our website - [Bookflix](https://harry-hopkinson.github.io/Bookflix). Once you register yourself, you will be redirected to your dashboard.
+To get started, head over to our website - [Bookflix](https://harry-hopkinson.github.io/BookFlix/). You will instantly be met with the homepage, where you can search for books by title, subject, or explore by genre or daily rated books.
 
-To explore our collection of books, ratings, reviews, and users, head over to the [Explore page](https://harry-hopkinson.github.io/Bookflix/explore), and search for a book, or user you want to view! When searching for books, you can search by name, by subject, and by its ISBN - International Standard Book Number.
+To explore our collection of books, ratings, reviews, and users, head over to the [Explore page](https://harry-hopkinson.github.io/BookFlix/#search), and search for a book, or user you want to view! When searching for books, you can search by name, by subject, and by its ISBN - International Standard Book Number.
 
-To explore trending books head over to the Trending Books which shows trending books with the New York Times API [Trending page](https://harry-hopkinson.github.io/Bookflix/trending)
+To explore trending books head over to the Trending Books which shows trending books with the New York Times API [Trending page](https://harry-hopkinson.github.io/BookFlix/#foryou)
 
 Once you provide your search query, Bookflix will fetch data from the Google Books API, and our own databases for a wide collection of books, and users. You can browse these, at your leisure!
 
