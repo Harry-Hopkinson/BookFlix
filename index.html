@@ -121,6 +121,11 @@
               ><span class="icon">👻</span>Horror</a
             >
           </li>
+          <li>
+            <a class="nav scrolltoview" href="#nonfiction"
+              ><span class="icon">👓</span>NonFiction</a
+            >
+          </li>
           <li class="nav trigger"><span class="icon">✨</span>More</li>
         </ul>
       </nav>
@@ -328,6 +333,32 @@
             </div>
           </div>
           <div class="list-book horror">
+            <div class="prompt">
+              <div class="loader"></div>
+            </div>
+          </div>
+        </section>
+        <section id="nonfiction" class="results">
+          <div class="flex">
+            <h1 class="section-title">Non Fiction 👓</h1>
+            <div>
+              <button
+                id="nonfiction-prev"
+                class="pagination prev"
+                onclick="prev('nonfiction')"
+              >
+                ◀
+              </button>
+              <button
+                id="fiction-next"
+                class="pagination next"
+                onclick="next('nonfiction')"
+              >
+                ▶
+              </button>
+            </div>
+          </div>
+          <div class="list-book nonfiction">
             <div class="prompt">
               <div class="loader"></div>
             </div>

@@ -111,6 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
   drawChartBook("poetry");
   drawChartBook("fantasy");
   drawChartBook("romance");
+  drawChartBook("nonfiction");
 });
 let mainNavLinks = document.querySelectorAll(".scrolltoview");
 window.addEventListener("scroll", (event) => {
