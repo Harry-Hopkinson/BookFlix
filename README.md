@@ -2,12 +2,16 @@
 <img align="left" width=70px height=70px src=".//icons/BookFlix.png" alt="Bookflix logo">
 
  <h1>Bookflix - A place to manage, explore and review books all from your browser.</h1>
- 
- Inspired by a display in my English Classroom. Written in Javascript, HTML and CSS.
+</img>
 
-<br>
+<div allign="center">
+  <br>
+  <img src="icons/Showcase.png" alt="marcdown" width="100%">
+  <img src="icons/Showcase2.png" alt="marcdown" width="100%">
+  <br>
+</div>
 
-<p align="center">
+<p allign="center">
 
 <a href="https://github.com/Harry-Hopkinson">
 	<img src= "https://images.weserv.nl/?url=avatars.githubusercontent.com/u/63599884?v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d">
